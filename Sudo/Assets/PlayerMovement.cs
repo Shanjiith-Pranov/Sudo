@@ -30,8 +30,8 @@ public class PlayerMovement : MonoBehaviour {
     //Crouch & Slide
     private Vector3 crouchScale = new Vector3(1, 0.5f, 1);
     private Vector3 playerScale;
-    public float slideForce = 400;
-    public float slideCounterMovement = 0.2f;
+    public float slideForce = 1000;
+    public float slideCounterMovement = 0f;
 
     //Jumping
     private bool readyToJump = true;
