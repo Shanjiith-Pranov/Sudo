@@ -19,7 +19,7 @@ public class GravityController : MonoBehaviour
             StartCoroutine(C_SpinObject(new Vector3(0, 0, 90), 2, player));
         } else if(Input.GetKey(KeyCode.J)){
             player.GetComponent <ConstantForce > ().force = new Vector3(-30f, 0f, 0f);
-            StartCoroutine(C_SpinObject(new Vector3(0, 0, -90), 2, player));
+            StartCoroutine(C_SpinObject(new Vector3(0, 0, -180), 2, player));
         } else if(Input.GetKey(KeyCode.K)){
             player.GetComponent <ConstantForce > ().force = new Vector3(0f, -30f, 0f);
             StartCoroutine(C_SpinObject(new Vector3(0, 0, 0), 2, player));
